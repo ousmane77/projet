@@ -1,0 +1,289 @@
+/* General */
+body
+{
+    font-family: sans-serif;
+} 
+
+.sections
+{
+    padding: 20px 0;
+}
+
+.overlay
+{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Header */
+header
+{
+    height: auto;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header .icon
+{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    z-index: 10;
+    display: none;
+}
+
+.logo h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a 
+{
+    display: block;
+    padding: 15px;
+    margin: 19px 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+nav ul li a:hover
+{
+    color: #7cb62f;
+    text-decoration: none;
+}
+.sticky
+{
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width:575px) 
+{
+    header
+    {
+        background: #000;
+    }
+    nav ul li
+    {
+        display: none;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .logo
+    {
+        text-align: center;
+    }
+    header .icon
+{
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    z-index: 10;
+    display: block;
+}
+}
+
+/* accueil */
+.home
+{
+    height: 650px;
+    background: url('../img/fond.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+}
+.home .home-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home .home-title
+{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.home .button
+{
+    background: #7cb62f;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Services */
+
+.titre
+{
+    font-size: 40px;
+}
+.line
+{
+    width: 150px;
+    height: 3px;
+    background: #ddd;
+    margin: auto;
+}
+.line span
+{
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #7cb62f;
+    margin: auto;
+    position: relative;
+    bottom: 0.5px;
+}
+.text-center p
+{
+   
+    color: #888;
+    margin: 10px auto;
+    line-height: 1.5;
+    
+}
+
+article
+{
+    display: inline-block;
+    margin: 30px 45px;
+    text-align: center;
+}
+img
+{
+    width: 160px;
+    height: 150px;
+}
+/* reservation */
+.reserv
+{
+    background-color: #000;
+}
+.reserv .date
+{
+    display: inline-block;
+    margin: 20px 20px;
+}
+.reserv .date h5
+{
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.reserv .date a
+{
+    border: 1px solid rgb(23,23,23);
+    padding: 10px;
+    background: rgb(23,23,23);
+    color: #fff;
+}
+.reserv .date a:hover
+{
+    text-decoration: none;
+    color: green;
+}
+.reserv a
+{
+    margin: 10px 0px;
+    border: 1px solid white;
+    color: white;
+}
+.reserv a:hover
+{
+    color: green;
+}
+
+/* contact*/
+
+.propos
+{
+    margin-bottom: 40px;
+}
+input
+{
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-right: 10px
+}
+label
+{
+    font-size:18px;
+    margin-right: 5px;
+}
+
+/* footer */
+
+.social h4
+{
+    color: #fff;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.social img
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;   
+    margin: 5px auto;
+    
+}
+.footer
+{
+    background: #000;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
